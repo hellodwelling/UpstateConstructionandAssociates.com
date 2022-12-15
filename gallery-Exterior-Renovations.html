@@ -1212,7 +1212,7 @@
             <div
     x-data="{
         activeImage: 0,
-        amountOfImages: 17,
+        amountOfImages: 57,
         next() {
             if (this.activeImage < this.amountOfImages - 1)
                 this.activeImage ++;
@@ -1233,9 +1233,89 @@
     <ul role="list" class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
         
             
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
                 <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                     <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                        <button @click="activeImage = 0; galleryModalOpen = true" class="block w-full h-full text-left rounded focus:outline-none focus-visible:ring focus:ring-0 focus:ring-offset-0">
+                        <button @click="activeImage = 40; galleryModalOpen = true" class="block w-full h-full text-left rounded focus:outline-none focus-visible:ring focus:ring-0 focus:ring-offset-0">
                             <div class="aspect-w-3 aspect-h-2">
                                 
                                     
@@ -1256,7 +1336,7 @@
             
                 <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                     <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                        <button @click="activeImage = 1; galleryModalOpen = true" class="block w-full h-full text-left rounded focus:outline-none focus-visible:ring focus:ring-0 focus:ring-offset-0">
+                        <button @click="activeImage = 41; galleryModalOpen = true" class="block w-full h-full text-left rounded focus:outline-none focus-visible:ring focus:ring-0 focus:ring-offset-0">
                             <div class="aspect-w-3 aspect-h-2">
                                 
                                     
@@ -1277,7 +1357,7 @@
             
                 <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                     <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                        <button @click="activeImage = 2; galleryModalOpen = true" class="block w-full h-full text-left rounded focus:outline-none focus-visible:ring focus:ring-0 focus:ring-offset-0">
+                        <button @click="activeImage = 42; galleryModalOpen = true" class="block w-full h-full text-left rounded focus:outline-none focus-visible:ring focus:ring-0 focus:ring-offset-0">
                             <div class="aspect-w-3 aspect-h-2">
                                 
                                     
@@ -1298,7 +1378,7 @@
             
                 <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                     <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                        <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full text-left rounded focus:outline-none focus-visible:ring focus:ring-0 focus:ring-offset-0">
+                        <button @click="activeImage = 43; galleryModalOpen = true" class="block w-full h-full text-left rounded focus:outline-none focus-visible:ring focus:ring-0 focus:ring-offset-0">
                             <div class="aspect-w-3 aspect-h-2">
                                 
                                     
@@ -1319,7 +1399,7 @@
             
                 <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                     <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                        <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full text-left rounded focus:outline-none focus-visible:ring focus:ring-0 focus:ring-offset-0">
+                        <button @click="activeImage = 44; galleryModalOpen = true" class="block w-full h-full text-left rounded focus:outline-none focus-visible:ring focus:ring-0 focus:ring-offset-0">
                             <div class="aspect-w-3 aspect-h-2">
                                 
                                     
@@ -1340,7 +1420,7 @@
             
                 <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                     <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                        <button @click="activeImage = 5; galleryModalOpen = true" class="block w-full h-full text-left rounded focus:outline-none focus-visible:ring focus:ring-0 focus:ring-offset-0">
+                        <button @click="activeImage = 45; galleryModalOpen = true" class="block w-full h-full text-left rounded focus:outline-none focus-visible:ring focus:ring-0 focus:ring-offset-0">
                             <div class="aspect-w-3 aspect-h-2">
                                 
                                     
@@ -1425,117 +1505,397 @@
                                 
                                     <li class="flex flex-col" x-show="activeImage === 0">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/126a0e55-62fb-49ae-8320-ee0a5e5f1684.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/83ac7f49-60cb-4f63-85f9-42e33f4837f8.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 1">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/9642bf36-af26-40e8-91b3-aa2c66a73c68.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/7e508c4c-83dd-4c0e-973a-3e89b26f2e13.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 2">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/b66d8d4b-997c-4cd2-bc2e-4dbafb1c9515.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/b0deadc8-6013-4063-90dc-41662f692162.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 3">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/7eeb540d-593c-49cb-bdd4-28d83518ef44.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/1dc58d93-ef73-4ad1-9608-83ef31bd0e75.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 4">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/4ad0d5a6-31c1-4945-9152-017f1fd081e4.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/c6fbb4d8-11b4-49f1-8ae6-ce20f4241bb0.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 5">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/d7f55e6e-0959-4081-b06f-96c211ca55e8.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/6a020069-6147-4c64-b273-505e0f5cae2f.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 6">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/5fca4de4-1fd4-4e4b-bfc3-401bdd85f193.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/6170681b-e9d7-434f-9273-9965f0998bd4.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 7">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/172e731e-0f46-4874-bc36-35ca7e85758b.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/f3a2c0ef-bce0-412e-88b1-ac7d00940345.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 8">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/c4b0939b-d4d1-4c00-8ddb-63376485af65.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/21d571cf-bac1-416e-9a8f-c71ad11efd1c.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 9">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/25d374ba-712e-478f-9c2f-94c1ede8e99e.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/b3d8236d-8442-4c97-ab7d-4a6958ad6aca.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 10">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/f2dccbe6-9bba-4af6-a057-323dc1612ec8.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/1dadce9d-4224-479a-b805-b6c0059fea1a.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 11">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/ca5ed554-d4d0-427e-96a3-23b1bda9b23f.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/76cb4da1-e50a-4e79-8fc2-2ac014d6b98d.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 12">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/1768a137-d5fd-4804-9298-4fe6287afef0.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/260e124b-2610-4bf3-8f90-59dd4638bae8.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 13">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/66f14187-07dc-40e7-96c0-10b7742db6b6.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/eb53d4de-7705-4687-8c17-eab93b3f4065.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 14">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/6425169a-c3b2-4a97-a14c-3028049442c2.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/5a47a85e-2955-4f60-839c-457825a5cd53.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 15">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/c48adc01-3204-4eb1-a4e5-33822d3b0d29.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/85dd3359-8edb-4c6f-a266-8eabf56d165a.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 16">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/f07fc071-4bdd-42f4-be55-dc80cf8e3950.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 17">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/f7d14ebb-d59e-4be6-a847-54dcb6b1349a.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 18">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/a6341933-0ba2-46cc-aa52-b2dd9f21cdcc.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 19">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/12f28f20-1156-4483-8df4-0cf0770aae73.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 20">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/ece28701-ad68-4460-8026-2c6e144c553b.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 21">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/4312f5c4-e8c5-4164-94c8-c14b3803eb16.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 22">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/a97158f6-a16f-4075-9e85-767a3c41aa5f.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 23">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/f594446a-e27e-4f3d-9ecc-8c2426e772b6.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 24">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/4d6a103a-dad5-449c-9a40-15e1f5855523.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 25">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/df818259-cb8e-4d6b-bbb9-ebf321e551a1.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 26">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/82604375-4414-4f64-80bf-11bbf1005c93.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 27">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/01579292-2954-476f-ace0-39283c0a75a1.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 28">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/890a040a-f5f4-4c68-95e6-ecb0edac5528.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 29">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/6d60af6e-c135-4e4b-a8b6-142902b81ef1.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 30">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/796fd27b-21d0-43f7-b5d7-88b71d0332b0.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 31">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/c5a66638-730b-424a-bba0-a5a5e5e60929.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 32">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/594a91b9-ef99-491c-b939-ba6dba5dd215.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 33">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/7654d6c1-23e9-4e4f-8dcd-d4eecce5bcac.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 34">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/8c651005-6d57-4f68-ba2d-4e317478525c.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 35">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/83682a50-15eb-4c39-b206-ef57d575888a.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 36">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/358dad6f-23ad-46ed-9e5f-78343e76897a.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 37">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/a948dd46-fa5c-40a1-a383-ed966eec29b2.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 38">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/87654c75-8817-445f-bead-14b4d0e9801c.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 39">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/81d3a6f3-10ed-44ae-a185-fca31e993a7a.jpeg" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 40">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/126a0e55-62fb-49ae-8320-ee0a5e5f1684.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 41">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/9642bf36-af26-40e8-91b3-aa2c66a73c68.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 42">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/b66d8d4b-997c-4cd2-bc2e-4dbafb1c9515.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 43">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/7eeb540d-593c-49cb-bdd4-28d83518ef44.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 44">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/4ad0d5a6-31c1-4945-9152-017f1fd081e4.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 45">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/d7f55e6e-0959-4081-b06f-96c211ca55e8.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 46">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/5fca4de4-1fd4-4e4b-bfc3-401bdd85f193.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 47">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/172e731e-0f46-4874-bc36-35ca7e85758b.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 48">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/c4b0939b-d4d1-4c00-8ddb-63376485af65.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 49">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/25d374ba-712e-478f-9c2f-94c1ede8e99e.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 50">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/f2dccbe6-9bba-4af6-a057-323dc1612ec8.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 51">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/1768a137-d5fd-4804-9298-4fe6287afef0.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 52">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/ca5ed554-d4d0-427e-96a3-23b1bda9b23f.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 53">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/66f14187-07dc-40e7-96c0-10b7742db6b6.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 54">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/6425169a-c3b2-4a97-a14c-3028049442c2.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 55">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/c48adc01-3204-4eb1-a4e5-33822d3b0d29.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 56">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/68555bbb-97d3-4905-8941-223b06961470.png" alt="Exterior Renovations for Upstate Construction &amp; Associates LLC in Albany, NY" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
@@ -2783,6 +3143,14 @@ const toggleOtherServices = () => {
                           
                           
                           
+                          
+                          <li>
+                              <a
+                                  href='sitemap.xml'
+                                  class="text-base text-gray-100 rounded hover:text-gray-300 focus:ring-0 focus:ring-offset-0"
+                                  >Sitemap</a
+                              >
+                          </li>
                           
                           <li>
                               <a
