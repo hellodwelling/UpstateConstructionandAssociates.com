@@ -119,7 +119,7 @@
   
   .all-photos-hero-image {
       background-color: var(--color-primary-foreground);
-      background-image: url("https://d3p2r6ofnvoe67.cloudfront.net/media/2903552e-8bd4-4599-9239-3bc6662d759a.jpeg");
+      background-image: url("https://d3p2r6ofnvoe67.cloudfront.net/media/7f0c62cd-cd49-4d07-aa34-fc8aafb7379f.jpeg");
       background-size: cover;
   }
   
@@ -1210,6 +1210,21 @@
                     <div @keydown.right="next" @keydown.left="prev" tabindex="0" role="region" aria-labelledby="carousel-label" class="relative focus:outline-none focus-visible:ring-2 ring-primary ring-offset-2">
                         <h2 id="carousel-label" class="sr-only" hidden>Reviews Carousel</h2>
                         
+                        <div class="absolute flex justify-between -inset-8">
+                            <button @click="prev" class="text-6xl">
+                                <svg aria-hidden="true" class="w-6 h-6" fill="none">
+                                    <path d="m10 19-7-7m0 0 7-7m-7 7h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                                <span class="sr-only">Skip to previous review</span>
+                            </button>
+                            <button @click="next" class="text-6xl">
+                                <svg aria-hidden="true" class="w-6 h-6" fill="none">
+                                    <path d="m14 5 7 7m0 0-7 7m7-7H3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                                <span class="sr-only">Skip to next slide</span>
+                            </button>
+                        </div>
+                        
                         <span id="carousel-content-label" class="sr-only" hidden>Carousel</span>
                         <ul id="services-image-slider" x-ref="slider" tabindex="0" role="listbox" aria-labelledby="carousel-content-label" class="hide-scrollbars">
                             
@@ -1220,13 +1235,289 @@
                                             
                                                 <img
                                                     class="block sm:hidden object-contain w-full h-full rounded-lg" 
-                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:strip_exif()/filters:no_upscale()/media/6170681b-e9d7-434f-9273-9965f0998bd4.jpeg"
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:strip_exif()/filters:no_upscale()/media/b8165b40-57b0-41a1-be59-fc0decc12d01.jpeg"
                                                     alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
                                                     loadin="lazy"
                                                 />
                                                 <img
                                                     class="hidden sm:block object-contain w-full h-full rounded-lg" 
-                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1200x1200/filters:strip_exif()/filters:no_upscale()/media/6170681b-e9d7-434f-9273-9965f0998bd4.jpeg"
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1200x1200/filters:strip_exif()/filters:no_upscale()/media/b8165b40-57b0-41a1-be59-fc0decc12d01.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loading="lazy"
+                                                />
+
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center h-full w-full p-10">
+                                        <div class="h-[229px] sm:h-[481px]">
+                                           
+                                            
+                                                <img
+                                                    class="block sm:hidden object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:strip_exif()/filters:no_upscale()/media/f684bf88-9f40-4e6c-b80c-e79cc7379677.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loadin="lazy"
+                                                />
+                                                <img
+                                                    class="hidden sm:block object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1200x1200/filters:strip_exif()/filters:no_upscale()/media/f684bf88-9f40-4e6c-b80c-e79cc7379677.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loading="lazy"
+                                                />
+
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center h-full w-full p-10">
+                                        <div class="h-[229px] sm:h-[481px]">
+                                           
+                                            
+                                                <img
+                                                    class="block sm:hidden object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:strip_exif()/filters:no_upscale()/media/d178717a-5c81-4a4a-9270-f9019acafd74.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loadin="lazy"
+                                                />
+                                                <img
+                                                    class="hidden sm:block object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1200x1200/filters:strip_exif()/filters:no_upscale()/media/d178717a-5c81-4a4a-9270-f9019acafd74.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loading="lazy"
+                                                />
+
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center h-full w-full p-10">
+                                        <div class="h-[229px] sm:h-[481px]">
+                                           
+                                            
+                                                <img
+                                                    class="block sm:hidden object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:strip_exif()/filters:no_upscale()/media/ec702e0b-b2e8-4f31-98ac-be9ae34a8a84.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loadin="lazy"
+                                                />
+                                                <img
+                                                    class="hidden sm:block object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1200x1200/filters:strip_exif()/filters:no_upscale()/media/ec702e0b-b2e8-4f31-98ac-be9ae34a8a84.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loading="lazy"
+                                                />
+
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center h-full w-full p-10">
+                                        <div class="h-[229px] sm:h-[481px]">
+                                           
+                                            
+                                                <img
+                                                    class="block sm:hidden object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:strip_exif()/filters:no_upscale()/media/6bf4b1bc-9929-4b82-ba02-10b41c6c0cff.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loadin="lazy"
+                                                />
+                                                <img
+                                                    class="hidden sm:block object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1200x1200/filters:strip_exif()/filters:no_upscale()/media/6bf4b1bc-9929-4b82-ba02-10b41c6c0cff.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loading="lazy"
+                                                />
+
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center h-full w-full p-10">
+                                        <div class="h-[229px] sm:h-[481px]">
+                                           
+                                            
+                                                <img
+                                                    class="block sm:hidden object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:strip_exif()/filters:no_upscale()/media/ab36615f-8083-496e-ac30-b017b5924d5e.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loadin="lazy"
+                                                />
+                                                <img
+                                                    class="hidden sm:block object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1200x1200/filters:strip_exif()/filters:no_upscale()/media/ab36615f-8083-496e-ac30-b017b5924d5e.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loading="lazy"
+                                                />
+
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center h-full w-full p-10">
+                                        <div class="h-[229px] sm:h-[481px]">
+                                           
+                                            
+                                                <img
+                                                    class="block sm:hidden object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:strip_exif()/filters:no_upscale()/media/32d18f52-0c11-4c2a-a208-72a0ce5f3a46.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loadin="lazy"
+                                                />
+                                                <img
+                                                    class="hidden sm:block object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1200x1200/filters:strip_exif()/filters:no_upscale()/media/32d18f52-0c11-4c2a-a208-72a0ce5f3a46.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loading="lazy"
+                                                />
+
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center h-full w-full p-10">
+                                        <div class="h-[229px] sm:h-[481px]">
+                                           
+                                            
+                                                <img
+                                                    class="block sm:hidden object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:strip_exif()/filters:no_upscale()/media/e897512f-974d-49c6-bb6f-81253b3f741b.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loadin="lazy"
+                                                />
+                                                <img
+                                                    class="hidden sm:block object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1200x1200/filters:strip_exif()/filters:no_upscale()/media/e897512f-974d-49c6-bb6f-81253b3f741b.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loading="lazy"
+                                                />
+
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center h-full w-full p-10">
+                                        <div class="h-[229px] sm:h-[481px]">
+                                           
+                                            
+                                                <img
+                                                    class="block sm:hidden object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:strip_exif()/filters:no_upscale()/media/e9adeea7-2371-4272-b815-eb7e7ff2fcd7.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loadin="lazy"
+                                                />
+                                                <img
+                                                    class="hidden sm:block object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1200x1200/filters:strip_exif()/filters:no_upscale()/media/e9adeea7-2371-4272-b815-eb7e7ff2fcd7.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loading="lazy"
+                                                />
+
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center h-full w-full p-10">
+                                        <div class="h-[229px] sm:h-[481px]">
+                                           
+                                            
+                                                <img
+                                                    class="block sm:hidden object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:strip_exif()/filters:no_upscale()/media/153e3edd-bf22-4ac9-a439-6014de3118ef.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loadin="lazy"
+                                                />
+                                                <img
+                                                    class="hidden sm:block object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1200x1200/filters:strip_exif()/filters:no_upscale()/media/153e3edd-bf22-4ac9-a439-6014de3118ef.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loading="lazy"
+                                                />
+
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center h-full w-full p-10">
+                                        <div class="h-[229px] sm:h-[481px]">
+                                           
+                                            
+                                                <img
+                                                    class="block sm:hidden object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:strip_exif()/filters:no_upscale()/media/69024da0-473e-499c-929d-e45e3fc8780e.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loadin="lazy"
+                                                />
+                                                <img
+                                                    class="hidden sm:block object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1200x1200/filters:strip_exif()/filters:no_upscale()/media/69024da0-473e-499c-929d-e45e3fc8780e.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loading="lazy"
+                                                />
+
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center h-full w-full p-10">
+                                        <div class="h-[229px] sm:h-[481px]">
+                                           
+                                            
+                                                <img
+                                                    class="block sm:hidden object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:strip_exif()/filters:no_upscale()/media/7f0c62cd-cd49-4d07-aa34-fc8aafb7379f.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loadin="lazy"
+                                                />
+                                                <img
+                                                    class="hidden sm:block object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1200x1200/filters:strip_exif()/filters:no_upscale()/media/7f0c62cd-cd49-4d07-aa34-fc8aafb7379f.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loading="lazy"
+                                                />
+
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center h-full w-full p-10">
+                                        <div class="h-[229px] sm:h-[481px]">
+                                           
+                                            
+                                                <img
+                                                    class="block sm:hidden object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:strip_exif()/filters:no_upscale()/media/33dcf8ae-5487-4f63-a363-fea112d66f1d.jpeg"
+                                                    alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
+                                                    loadin="lazy"
+                                                />
+                                                <img
+                                                    class="hidden sm:block object-contain w-full h-full rounded-lg" 
+                                                    src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1200x1200/filters:strip_exif()/filters:no_upscale()/media/33dcf8ae-5487-4f63-a363-fea112d66f1d.jpeg"
                                                     alt="Basement Remodeling for Upstate Construction &amp; Associates LLC in Albany, NY"
                                                     loading="lazy"
                                                 />
